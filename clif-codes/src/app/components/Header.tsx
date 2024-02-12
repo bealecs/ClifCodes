@@ -69,8 +69,8 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <h1 className="font-mono text-black-400 pr-2 text-4xl">Clif</h1>
-          <h1 className="text-sky-400 text-4xl">Codes</h1>
+          <h1 className="font-mono text-black-400 pr-2 text-[2.5rem]">Clif</h1>
+          <h1 className="font-mono text-sky-400 text-[2.5rem]">Codes</h1>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -84,7 +84,7 @@ export default function Header() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
+            <Popover.Button className="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900">
               Services
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
@@ -146,17 +146,17 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             Schedule Consultation
           </a>
           <a
             href="https://clif.codes"
             target="_blank"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-base font-semibold leading-6 text-gray-900"
           >
             Portfolio
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
             Testimonials
           </a>
         </Popover.Group>
@@ -171,8 +171,8 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <div className="flex">
-              <h1 className="font-mono text-black-400 pr-2">Clif</h1>
-              <h1 className="text-sky-400">Codes</h1>
+              <h1 className="font-mono text-black-400 pr-2 text-4xl">Clif</h1>
+              <h1 className="font-mono text-sky-400 text-4xl">Codes</h1>
             </div>
 
             <button
