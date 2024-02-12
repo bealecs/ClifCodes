@@ -90,7 +90,7 @@ export default function Carousel() {
           }
         }
 
-        .overflow-hidden > .flex > .w-48 {
+        .overflow-hidden .flex .w-48 {
           animation: animateCarousel 14s linear infinite;
         }
       `}</style>
