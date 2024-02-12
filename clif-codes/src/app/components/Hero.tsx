@@ -57,8 +57,8 @@ export default function Hero() {
                 ))}
               </dl>
               <div className="flex justify-center items-center mt-[2rem] m-auto max-w-7xl">
-                <button className="bg-sky-400 hover:bg-sky-700 text-black font-bold py-4 px-6 rounded">
-                  View Services
+                <button className="bg-sky-400 hover:bg-sky-700 hover:text-white text-black font-bold py-4 px-6 rounded">
+                  Contact Clif
                 </button>
               </div>
             </div>
@@ -67,9 +67,7 @@ export default function Hero() {
             <img
               src="/pfp.webp"
               alt="profile shot of Clif"
-              className="bg-transparent rounded-lg"
-              width={2432}
-              height={1442}
+              className="bg-transparent rounded-lg p-[2.5rem]"
             />
           </div>
         </div>
