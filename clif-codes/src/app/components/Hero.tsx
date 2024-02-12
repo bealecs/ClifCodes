@@ -67,7 +67,7 @@ export default function Hero() {
             <img
               src="/pfp.webp"
               alt="profile shot of Clif"
-              className="bg-transparent rounded-lg p-[2.5rem]"
+              className="bg-transparent rounded-lg p-[2.5rem] lg:block hidden"
             />
           </div>
         </div>
