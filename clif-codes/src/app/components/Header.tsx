@@ -15,6 +15,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import { usePathname } from "next/navigation";
 
 const products = [
   {
@@ -61,6 +62,7 @@ function classNames(...classes) {
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="bg-white">
@@ -146,8 +148,8 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-base font-semibold leading-6 text-gray-900">
-            Schedule Consultation
+          <a href={pathname === "/schedule" ? "/" : "/schedule"} className="text-base font-semibold leading-6 text-gray-900">
+            {pathname === "/schedule" ? "Home Page" : "Schedule Consultation"}
           </a>
           <a
             href="https://clif.codes"
