@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <Carousel />
       <Hero />
+      <Carousel />
     </main>
   );
 }
