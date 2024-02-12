@@ -15,13 +15,6 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
-import { Great_Vibes } from "next/font/google";
-
-const greatVibes = Great_Vibes({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-great-vibes",
-});
 
 const products = [
   {
@@ -76,7 +69,7 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <h1 className={`${greatVibes} text-black-400 pr-2 text-4xl`}>Clif</h1>
+          <h1 className="font-mono text-black-400 pr-2 text-4xl">Clif</h1>
           <h1 className="text-sky-400 text-4xl">Codes</h1>
         </div>
         <div className="flex lg:hidden">
@@ -178,7 +171,7 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <div className="flex">
-              <h1 className={`${greatVibes} text-black-400 pr-2`}>Clif</h1>
+              <h1 className="font-mono text-black-400 pr-2">Clif</h1>
               <h1 className="text-sky-400">Codes</h1>
             </div>
 
