@@ -29,7 +29,7 @@ const features = [
 
 export default function Hero() {
   return (
-    <div className="bg-white py-16 sm:py-16">
+    <div className="bg-white py-8 sm:py-4">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-sky-400">Deploy faster with quality solutions</h2>
@@ -55,12 +55,12 @@ export default function Hero() {
             ))}
           </dl>
           <div className='flex justify-evenly pt-20'>
-            <button className='transition duration-300 ease-in-out bg-sky-400 text-black hover:text-white border-black border-2 hover:bg-sky-600 p-4 rounded-lg'>
+            <a href="" className='transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg'>
               View Services
-            </button>
-            <button className='transition duration-300 ease-in-out bg-sky-400 text-black hover:text-white hover:bg-sky-600 border-black border-2 p-4 rounded-lg'>
+            </a>
+            <a href="/contact" className='transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg'>
               Contact Clif
-            </button>
+            </a>
           </div>
         </div>
       </div>
