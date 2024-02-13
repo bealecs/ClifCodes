@@ -37,7 +37,7 @@ export default function Hero() {
             Satisfaction guarenteed
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Clif Codes leverages the latest and greatest web technologies to bring clients cutting-edge, cost-effective solutions 
+            Check out some of our solutions below for a glimpse at what we can do for you 
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -54,6 +54,14 @@ export default function Hero() {
               </div>
             ))}
           </dl>
+          <div className='flex justify-evenly pt-20'>
+            <button className='transition duration-300 ease-in-out bg-sky-400 text-black hover:text-white border-black border-2 hover:bg-sky-600 p-4 rounded-lg'>
+              View Services
+            </button>
+            <button className='transition duration-300 ease-in-out bg-sky-400 text-black hover:text-white hover:bg-sky-600 border-black border-2 p-4 rounded-lg'>
+              Contact Clif
+            </button>
+          </div>
         </div>
       </div>
     </div>
