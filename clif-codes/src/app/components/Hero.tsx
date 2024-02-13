@@ -1,77 +1,61 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
+import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: "Full Stack Web Application Solutions",
+    name: 'Push to deploy',
     description:
-      "Clif Codes offers a range of solutions, from static, single-page web applications to dynamic full-stack applications. Schedule a consult to find your solution.",
+      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Optimized Performance, Accessibility, and SEO",
+    name: 'SSL certificates',
     description:
-      "No matter your needs, Clif Codes develops with Accessibility, Performance, and SEO at the forefront of every solution.",
+      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
     icon: LockClosedIcon,
   },
   {
-    name: "Cost Effective Solutions",
+    name: 'Simple queues',
     description:
-      "Clif Codes works quickly and efficiently, while using the most up-to-date technologies. In doing so, we ensure that our clients get lower prices for better solutions",
-    icon: ServerIcon,
+      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+    icon: ArrowPathIcon,
   },
-];
+  {
+    name: 'Advanced security',
+    description:
+      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+    icon: FingerPrintIcon,
+  },
+]
 
 export default function Hero() {
   return (
-    <div className="overflow-hidden bg-white py-12 sm:py-8">
+    <div className="bg-white py-16 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8 lg:pt-4">
-            <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-sky-400">
-                Quality Freelance Web Services
-              </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Guaranteed Satisfaction
-              </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                I care deeply about my work, and won't stop until I get the
-                perfect solution for your needs.
-              </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
-                  <div key={feature.name} className="relative pl-9">
-                    <dt className="inline font-semibold text-gray-900">
-                      <feature.icon
-                        className="absolute left-1 top-1 h-5 w-5 text-sky-400"
-                        aria-hidden="true"
-                      />
-                      {feature.name}
-                    </dt>{" "}
-                    <dd className="inline">{feature.description}</dd>
+        <div className="mx-auto max-w-2xl lg:text-center">
+          <h2 className="text-base font-semibold leading-7 text-sky-400">Deploy faster with quality solutions</h2>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Satisfaction guarenteed
+          </p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">
+            Clif Codes leverages a lot of the latest and greatest web technologies to bring clients the most 
+          </p>
+        </div>
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            {features.map((feature) => (
+              <div key={feature.name} className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-400">
+                    <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
-                ))}
-              </dl>
-              <div className="flex justify-center items-center mt-[2rem] m-auto max-w-7xl">
-                <button className="bg-sky-400 hover:bg-sky-700 hover:text-white text-black font-bold py-4 px-6 rounded">
-                  Contact Clif
-                </button>
+                  {feature.name}
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
               </div>
-            </div>
-          </div>
-          <div className="flex justify-center p-8">
-            <img
-              src="/pfp.webp"
-              alt="profile shot of Clif"
-              className="bg-transparent rounded-lg p-[2.5rem] lg:block hidden"
-            />
-          </div>
+            ))}
+          </dl>
         </div>
       </div>
     </div>
-  );
+  )
 }
