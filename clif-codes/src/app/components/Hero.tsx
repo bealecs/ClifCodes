@@ -1,28 +1,28 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
+import { InboxIcon, ComputerDesktopIcon, FingerPrintIcon, CommandLineIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'UI Design Services',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: CloudArrowUpIcon,
+      'Full application design & individual component designs / templates',
+    icon: ComputerDesktopIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Full Stack Solutions',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      'From static single page web applications to dynamic with a database and user management',
+    icon: CommandLineIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Newsletter & Email Services',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      'Set up your users to get your latest updates and information, automated through email',
+    icon: InboxIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'User Authentication & Management',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'Bring account creation to your users and manage account features / tools',
     icon: FingerPrintIcon,
   },
 ]
@@ -37,7 +37,7 @@ export default function Hero() {
             Satisfaction guarenteed
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Clif Codes leverages a lot of the latest and greatest web technologies to bring clients the most 
+            Clif Codes leverages the latest and greatest web technologies to bring clients cutting-edge, cost-effective solutions 
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
