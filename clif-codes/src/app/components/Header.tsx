@@ -66,7 +66,10 @@ export default function Header() {
 
   return (
     //for some reason sticky wouldnt work with tailwind so I styled inline
-    <header className="bg-white" style={{ position: 'sticky', top: 0, zIndex: 10 }}>
+    <header
+      className="bg-white"
+      style={{ position: "sticky", top: 0, zIndex: 10 }}
+    >
       <nav
         className="mx-auto flex max-w-7xl items-center content-center justify-between p-6 lg:px-8 sticky top-0 bg-white z-10"
         aria-label="Global"
@@ -169,10 +172,10 @@ export default function Header() {
             Testimonials
           </a>
           <a
-            href="#"
+            href={pathname === "/contact" ? "/" : "/contact"}
             className="text-base font-semibold leading-6 text-gray-900"
           >
-            Contact
+            {pathname === "/contact" ? "Home Page" : "Contact"}
           </a>
         </Popover.Group>
       </nav>
@@ -231,11 +234,14 @@ export default function Header() {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href={pathname === "/schedule" ? "/" : "/schedule"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Schedule Consultation
+                  {pathname === "/schedule"
+                    ? "Home Page"
+                    : "Schedule Consultation"}
                 </a>
+
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -249,10 +255,10 @@ export default function Header() {
                   Testimonials
                 </a>
                 <a
-                  href="#"
+                  href={pathname === "/contact" ? "/" : "/contact"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Contact
+                  {pathname === "/contact" ? "Home Page" : "Contact"}
                 </a>
               </div>
             </div>
