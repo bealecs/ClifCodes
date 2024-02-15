@@ -27,23 +27,7 @@ export default function Contact() {
           <h4 className="text-sky-400 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
-      <h4 className="text-center mt-[4rem] text-2xl font-medium">
-        Anonymous Feedback
-      </h4>
-      <form className="flex flex-col max-w-2xl mt-[3rem] m-auto sm:mx-4">
-        <label>Type here:</label>
-        <textarea
-          placeholder="Enter your feedback..."
-          className="border-solid border-2 rounded-lg p-1 m-1 border-gray-400 h-20"
-        />
-        <button
-          type="submit"
-          className="transition duration-300 ease-in-out mt-[2rem] border-[0.12rem] border-gray-600 rounded-lg w-fit m-auto p-[0.5rem] bg-sky-400 hover:bg-sky-600 text-white"
-        >
-          Submit Feedback
-        </button>
-      </form>
-      <div className="flex pt-[8rem] justify-evenly pb-[2rem] sm:pt-[4rem]">
+      <div className="flex py-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
         <SocialIcon
           bgColor="rgb(56 189 248)"
           url="https://linkedin.com/in/clif-beale"
@@ -59,6 +43,22 @@ export default function Contact() {
           network="discord"
         />
       </div>
+      <h4 className="text-center text-2xl font-medium">
+        Anonymous Feedback
+      </h4>
+      <form className="flex flex-col max-w-2xl mt-[3rem] m-auto sm:mx-4">
+        <label>Type here:</label>
+        <textarea
+          placeholder="Enter your feedback..."
+          className="border-solid border-2 rounded-lg p-1 m-1 border-gray-400 h-20"
+        />
+        <button
+          type="submit"
+          className="transition duration-300 ease-in-out mt-[2rem] border-[0.12rem] border-gray-600 rounded-lg w-fit m-auto p-[0.5rem] bg-sky-400 hover:bg-sky-600 text-white"
+        >
+          Submit Feedback
+        </button>
+      </form>
     </>
   );
 }
