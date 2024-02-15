@@ -30,16 +30,19 @@ export default function Contact() {
       <div className="flex py-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
         <SocialIcon
           bgColor="rgb(56 189 248)"
+          target="_blank"
           url="https://linkedin.com/in/clif-beale"
         />
         <SocialIcon
           bgColor="rgb(56 189 248)"
-          className="cursor-pointer"
+          href="mailto:cliftonscottbeale@gmail.com"
+          target="_blank"
           network="email"
         />
         <SocialIcon
           bgColor="rgb(56 189 248)"
-          className="cursor-pointer"
+          href="https://discord.com/users/367069635083894784"
+          target="_blank"
           network="discord"
         />
       </div>
