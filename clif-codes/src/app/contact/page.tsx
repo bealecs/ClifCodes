@@ -27,7 +27,26 @@ export default function Contact() {
           <h4 className="text-sky-400 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
-      <h4 className="text-center mt-[4rem] text-2xl font-medium">
+      <div className="flex py-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
+        <SocialIcon
+          bgColor="rgb(56 189 248)"
+          target="_blank"
+          url="https://linkedin.com/in/clif-beale"
+        />
+        <SocialIcon
+          bgColor="rgb(56 189 248)"
+          href="mailto:cliftonscottbeale@gmail.com"
+          target="_blank"
+          network="email"
+        />
+        <SocialIcon
+          bgColor="rgb(56 189 248)"
+          href="https://discord.com/users/367069635083894784"
+          target="_blank"
+          network="discord"
+        />
+      </div>
+      <h4 className="text-center text-2xl font-medium">
         Anonymous Feedback
       </h4>
       <form className="flex flex-col max-w-2xl mt-[3rem] m-auto sm:mx-4">
@@ -43,22 +62,6 @@ export default function Contact() {
           Submit Feedback
         </button>
       </form>
-      <div className="flex pt-[8rem] justify-evenly pb-[2rem] sm:pt-[4rem]">
-        <SocialIcon
-          bgColor="rgb(56 189 248)"
-          url="https://linkedin.com/in/clif-beale"
-        />
-        <SocialIcon
-          bgColor="rgb(56 189 248)"
-          className="cursor-pointer"
-          network="email"
-        />
-        <SocialIcon
-          bgColor="rgb(56 189 248)"
-          className="cursor-pointer"
-          network="discord"
-        />
-      </div>
     </>
   );
 }
