@@ -8,7 +8,7 @@ const TermsOfService = () => {
         <p className="mb-6">
           These Terms of Service {("'Terms'")} govern the use of the web development
           services provided by Clif Codes, LLC (referred to as {"'we'"}, {"'us'"}, or
-          {"'our'"}).
+          {" 'our'"}).
         </p>
         <p className="mb-6">
           By accessing or using our web development services, you agree to be

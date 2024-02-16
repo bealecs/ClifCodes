@@ -8,13 +8,13 @@ export default function Services() {
         Core Services
       </h4>
       <div className="grid grid-cols-3 gap-4 w-7/12 mx-auto my-[3rem] md:flex md:flex-col md:w-[60%] sm:flex sm:flex-col sm:w-[90%]">
-        <div className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden">
+        <div id="ui" className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden">
           <Image
             src={"/uiDevelopment1.svg"}
-            alt="clipart of a paint brush painting on a computer screen"
+            alt="Phone screen with a thumbs up over top of some UI"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             UI Development
@@ -28,10 +28,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/static1.svg"}
-            alt=""
+            alt="A website with a couple of different static pages surrounding it"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Static Application
@@ -45,10 +45,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/dynamic.svg"}
-            alt=""
+            alt="A crane holding up a frame of a website while some machinery works on the web page"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Dynamic Application
@@ -62,10 +62,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/database.svg"}
-            alt=""
+            alt="Two machines that resemble humans with robot heads dancing gleefully as money prints from their mouths while the stocks rise on the screen in the back of the room"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Database Setup & Management
@@ -81,10 +81,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/userAuth.svg"}
-            alt=""
+            alt="A user sitting at a control center with an eye monocle on, focused for what they are doing"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             User Authentication & Management
@@ -100,10 +100,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/newsletter.svg"}
-            alt=""
+            alt="Calendar, next to a screen with some rising stocks and piles of coins with $$"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Newsletter & Email Services
@@ -119,10 +119,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/metrics.svg"}
-            alt=""
+            alt="Cash register printing off a long receipt. The screen on the cash register resembles a surprised/sad face from being overworked"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Site Metrics Enhancement
@@ -137,10 +137,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/devadvocate.svg"}
-            alt=""
+            alt="A robot teaching a class on what appears to be algebra. The robot is pointing a stick at a chalkboard that contains some different graphs. School setting."
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             Developer Advocate
@@ -154,10 +154,10 @@ export default function Services() {
         <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/1off.svg"}
-            alt=""
+            alt="Website shattering while someone at a control desk is trying something to fix it"
             width={150}
             height={150}
-            className="mx-auto"
+            className="mx-auto sm:mx-0"
           />
           <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
             1-off Solutions
