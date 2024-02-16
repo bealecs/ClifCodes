@@ -11,8 +11,8 @@ export default function Contact() {
           <h2 className="font-bold text-3xl">Point of Contact</h2>
           <p className="text-gray-500 pt-[2rem]">
             I am Clif, a passionate web developer of three years. I like to
-            solve problems and build new things. I am passionate about
-            accessability & performance. Reach out now to get started working
+            solve problems and build new things. I am passionate about AI,
+            accessability, & performance. Reach out now to get started working
             towards your next solution.
           </p>
         </div>
@@ -27,7 +27,8 @@ export default function Contact() {
           <h4 className="text-sky-400 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
-      <div className="flex py-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
+      <aside className="text-gray-500 text-center py-8 underline italic">Caution: The buttons below are external links</aside>
+      <div className="flex pt-8 pb-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
         <SocialIcon
           bgColor="rgb(56 189 248)"
           target="_blank"
