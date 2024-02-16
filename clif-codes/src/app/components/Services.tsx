@@ -110,8 +110,8 @@ export default function Services() {
           </h2>
           <p className="text-gray-500 text-justify tracking-tight w-11/12 py-[1rem] h-[200px] mx-[1rem]">
             Stay connected with your audience and drive engagement with my
-            newsletter and emailing services. Whether it's crafting compelling
-            email campaigns or setting up automated newsletters, I'll help you
+            newsletter and emailing services. Whether crafting compelling
+            email campaigns or setting up automated newsletters, I will help you
             effectively communicate with your subscribers and grow your brand
             presence.
           </p>
@@ -128,9 +128,9 @@ export default function Services() {
             Site Metrics Enhancement
           </h2>
           <p className="text-gray-500 text-justify tracking-tighter w-11/12 py-[1rem] h-[200px] mx-[1rem]">
-            Gain valuable insights into your website's performance and user
+            Gain valuable insights into your website performance and user
             behavior. From implementing analytics tools to interpreting data and
-            providing actionable recommendations, I'll help you optimize your
+            providing actionable recommendations, I will help you optimize your
             online presence and drive results.
           </p>
         </div>
@@ -163,9 +163,9 @@ export default function Services() {
             1-off Solutions
           </h2>
           <p className="text-gray-500 text-justify tracking-tight w-11/12 py-[1rem] h-[200px] mx-[1rem]">
-            Have a unique problem or requirement? Let's tackle it together -
+            Have a unique problem or requirement? We can tackle it together -
             providing innovative and effective answers to your individual needs.
-            Whether it's a custom feature or a technical hurdle, I'm here to
+            Whether it be a custom feature or a technical hurdle, I am here to
             deliver bespoke solutions that exceed expectations.
           </p>
         </div>
