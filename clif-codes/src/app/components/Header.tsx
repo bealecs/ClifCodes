@@ -52,7 +52,7 @@ const products = [
   },
 ];
 const callsToAction = [
-  { name: "Terms of Service", href: "/#", icon: ClipboardIcon },
+  { name: "Terms of Service", href: "/terms", icon: ClipboardIcon },
   { name: "Contact Clif", href: "/contact", icon: PhoneIcon },
 ];
 
