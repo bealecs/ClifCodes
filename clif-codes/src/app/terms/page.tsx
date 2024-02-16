@@ -6,9 +6,9 @@ const TermsOfService = () => {
       <div className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md">
         <h1 className="text-3xl font-bold mb-6">Terms of Service</h1>
         <p className="mb-6">
-          These Terms of Service ("Terms") govern the use of the web development
-          services provided by Clif Codes, LLC (referred to as "we", "us", or
-          "our").
+          These Terms of Service {("'Terms'")} govern the use of the web development
+          services provided by Clif Codes, LLC (referred to as {"'we'"}, {"'us'"}, or
+          {"'our'"}).
         </p>
         <p className="mb-6">
           By accessing or using our web development services, you agree to be
