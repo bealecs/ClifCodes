@@ -92,7 +92,7 @@ export default function Services() {
           <p className="text-gray-500 text-justify tracking-tight w-11/12 py-[1rem] h-[200px] mx-[1rem] md:tracking-tighter">
             Protect your users and streamline access to your platform with my
             user authentication and management services. From secure login
-            systems to user profile management, I'll implement reliable
+            systems to user profile management, I will implement reliable
             solutions that prioritize security and usability, enhancing the
             overall user experience.
           </p>
