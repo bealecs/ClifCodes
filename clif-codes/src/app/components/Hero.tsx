@@ -30,7 +30,7 @@ const features = [
 export default function Hero() {
   return (
     <div className="bg-white py-8 sm:py-4">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto w-7/12 sm:w-[100%] px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-sky-400">Deploy faster with quality solutions</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -55,11 +55,11 @@ export default function Hero() {
             ))}
           </dl>
           <div className='flex justify-evenly pt-20'>
-            <a href="" className='transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg'>
-              View Services
+            <a href="/schedule" className='transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg'>
+              Schedule
             </a>
             <a href="/contact" className='transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg'>
-              Contact Clif
+              Contact
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ import {
 import {
   ChevronDownIcon,
   PhoneIcon,
-  PlayCircleIcon,
+  ClipboardIcon
 } from "@heroicons/react/20/solid";
 import { usePathname } from "next/navigation";
 
@@ -21,39 +21,39 @@ const products = [
   {
     name: "Analytics",
     description: "Get a better understanding of your traffic",
-    href: "#",
+    href: "/#services",
     icon: ChartPieIcon,
   },
   {
     name: "UI Design",
     description: "Bring your site to life with cutting-edge UI development",
-    href: "#",
+    href: "/#services",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "User Authentication Services",
     description: "Allow users sign in or create accounts",
-    href: "#",
+    href: "/#services",
     icon: SquaresPlusIcon,
   },
   {
     name: "Database Setup & Management",
     description:
       "Manage your data & information in a safe and secure environment",
-    href: "#",
+    href: "/#services",
     icon: FingerPrintIcon,
   },
   {
     name: "Email & Subscription Services",
     description:
       "Get set up with newsletter & subscription services for your users",
-    href: "#",
+    href: "/#services",
     icon: ArrowPathIcon,
   },
 ];
 const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact Clif", href: "#", icon: PhoneIcon },
+  { name: "Terms of Service", href: "/#", icon: ClipboardIcon },
+  { name: "Contact Clif", href: "/contact", icon: PhoneIcon },
 ];
 
 function classNames(...classes) {
