@@ -34,14 +34,14 @@ const products = [
     name: "User Authentication Services",
     description: "Allow users sign in or create accounts",
     href: "/#services",
-    icon: SquaresPlusIcon,
+    icon: FingerPrintIcon,
   },
   {
     name: "Database Setup & Management",
     description:
       "Manage your data & information in a safe and secure environment",
     href: "/#services",
-    icon: FingerPrintIcon,
+    icon: SquaresPlusIcon,
   },
   {
     name: "Email & Subscription Services",
