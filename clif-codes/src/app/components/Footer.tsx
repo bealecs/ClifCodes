@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="py-6 sm:hidden">
       <div className="container mx-auto">
-        <div className="flex justify-evenly content-center">
+        <div className="flex justify-between content-center">
           {/* Column 1: Logo and copyright */}
           <div className="inline-block sm:block">
             <div className="flex mb-8">
