@@ -1,4 +1,5 @@
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Mockups from "./components/Mockups";
@@ -12,6 +13,7 @@ export default function Home() {
       <Carousel />
       <Services />
       <Mockups />
+      <Footer />
     </main>
   );
 }

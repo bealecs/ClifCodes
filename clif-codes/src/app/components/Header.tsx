@@ -13,7 +13,7 @@ import {
 import {
   ChevronDownIcon,
   PhoneIcon,
-  ClipboardIcon
+  ClipboardIcon,
 } from "@heroicons/react/20/solid";
 import { usePathname } from "next/navigation";
 
@@ -75,8 +75,12 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <h1 className="font-mono text-black-400 pr-2 text-[2.5rem]">Clif</h1>
-          <h1 className="font-mono text-sky-400 text-[2.5rem]">Codes</h1>
+          <a href="/" className="font-mono text-black-400 pr-2 text-[2.5rem]">
+            Clif
+          </a>
+          <a href="/" className="font-mono text-sky-400 text-[2.5rem]">
+            Codes
+          </a>
         </div>
         <div className="flex lg:hidden">
           <button

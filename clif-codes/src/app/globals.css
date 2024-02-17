@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  background-color: grey;
+  color: skyblue;
+}
 
 @layer utilities {
   .text-balance {
