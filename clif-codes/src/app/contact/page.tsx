@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "../components/Header";
 import { SocialIcon } from "react-social-icons";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -63,6 +64,7 @@ export default function Contact() {
           Submit Feedback
         </button>
       </form>
+      <Footer />
     </>
   );
 }
