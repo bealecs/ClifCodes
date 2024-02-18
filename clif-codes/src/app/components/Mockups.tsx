@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Mockups() {
   return (
     <section id="mockup" className="w-[80%] mx-auto">
+      <h4 className="text-center text-3xl font-bold sm:text-left sm:px-[1rem]">Responsive solutions for any device</h4>
       <div className="flex flex-row justify-evenly mx-auto flex-wrap">
         <Image
           src="/desktopMockup.svg"

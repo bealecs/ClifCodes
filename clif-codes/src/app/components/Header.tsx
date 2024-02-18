@@ -12,7 +12,7 @@ import {
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
-  PhoneIcon,
+  BarsArrowDownIcon,
   ClipboardIcon,
 } from "@heroicons/react/20/solid";
 import { usePathname } from "next/navigation";
@@ -21,39 +21,39 @@ const products = [
   {
     name: "Analytics",
     description: "Get a better understanding of your traffic",
-    href: "/#services",
+    href: "/services/metrics-service",
     icon: ChartPieIcon,
   },
   {
     name: "UI Design",
     description: "Bring your site to life with cutting-edge UI development",
-    href: "/#services",
+    href: "/services/ui-service",
     icon: CursorArrowRaysIcon,
   },
   {
     name: "User Authentication Services",
     description: "Allow users sign in or create accounts",
-    href: "/#services",
+    href: "/services/userAuth-service",
     icon: FingerPrintIcon,
   },
   {
     name: "Database Setup & Management",
     description:
       "Manage your data & information in a safe and secure environment",
-    href: "/#services",
+    href: "/services/database-service",
     icon: SquaresPlusIcon,
   },
   {
     name: "Email & Subscription Services",
     description:
       "Get set up with newsletter & subscription services for your users",
-    href: "/#services",
+    href: "/services/newsletter-service",
     icon: ArrowPathIcon,
   },
 ];
 const callsToAction = [
   { name: "Terms of Service", href: "/terms", icon: ClipboardIcon },
-  { name: "Contact Clif", href: "/contact", icon: PhoneIcon },
+  { name: "All Services", href: "/#services", icon: BarsArrowDownIcon },
 ];
 
 function classNames(...classes) {
@@ -163,19 +163,6 @@ export default function Header() {
             {pathname === "/schedule" ? "Home Page" : "Schedule Consultation"}
           </a>
           <a
-            href="https://clif.codes"
-            target="_blank"
-            className="text-base font-semibold leading-6 text-gray-900"
-          >
-            Portfolio
-          </a>
-          <a
-            href="#"
-            className="text-base font-semibold leading-6 text-gray-900"
-          >
-            Testimonials
-          </a>
-          <a
             href={pathname === "/contact" ? "/" : "/contact"}
             className="text-base font-semibold leading-6 text-gray-900"
           >
@@ -244,19 +231,6 @@ export default function Header() {
                   {pathname === "/schedule"
                     ? "Home Page"
                     : "Schedule Consultation"}
-                </a>
-
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Portfolio
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Testimonials
                 </a>
                 <a
                   href={pathname === "/contact" ? "/" : "/contact"}

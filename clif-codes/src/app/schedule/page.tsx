@@ -4,7 +4,7 @@ import { InlineWidget } from "react-calendly";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Schedule = () => {
+export default function Schedule() {
   return (
     <div>
       <Header />
@@ -14,4 +14,3 @@ const Schedule = () => {
   );
 };
 
-export default Schedule;

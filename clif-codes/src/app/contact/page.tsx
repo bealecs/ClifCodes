@@ -28,7 +28,7 @@ export default function Contact() {
           <h4 className="text-sky-400 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
-      <aside className="text-gray-500 text-center py-8 underline italic">Caution: The buttons below are external links</aside>
+      <aside className="text-gray-500 text-center py-4 underline italic">Note: The buttons below are external links</aside>
       <div className="flex pt-8 pb-[6rem] w-[50%] mx-auto justify-evenly sm:pt-[2rem]">
         <SocialIcon
           bgColor="rgb(56 189 248)"
