@@ -1,6 +1,7 @@
 import { randomUUID } from 'crypto';
 import React from 'react';
 import { Italianno } from 'next/font/google';
+import Image from 'next/image';
 
 const italianno = Italianno({
   subsets: ['latin'],
@@ -59,9 +60,11 @@ export default function Carousel() {
       <div className="flex">
         {mySkills.map((skill: Skill) => (
           <div key={randomUUID()} className="w-48 flex-none px-2">
-            <img
-              className="h-20 w-20 m-auto items-center content-center"
+            <Image
+              className="m-auto items-center content-center"
               src={skill.icon}
+              height={80}
+              width={80}
               alt={`Skill possessed by Clif, icon representing skill of: ${skill.technology}`}
             />
             <p className="font-sans text-1xl m-auto mt-[1rem] items-center content-center w-fit">{skill.technology}</p>
@@ -69,8 +72,10 @@ export default function Carousel() {
         ))}
         {mySkills.map((skill: Skill) => (
           <div key={randomUUID()} className="w-48 flex-none px-2">
-            <img
-              className="h-20 w-20 m-auto items-center content-center"
+            <Image
+              height={80}
+              width={80}
+              className="m-auto items-center content-center"
               src={skill.icon}
               alt={`Skill possessed by Clif, icon representing skill of: ${skill.technology}`}
             />
