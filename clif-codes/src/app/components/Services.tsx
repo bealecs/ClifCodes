@@ -8,7 +8,7 @@ export default function Services() {
         Core Services
       </h4>
       <div className="grid grid-cols-3 gap-4 w-7/12 mx-auto my-[3rem] md:flex md:flex-col md:w-[60%] sm:flex sm:flex-col sm:w-[90%]">
-        <div id="ui" className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden">
+        <a href="/services/ui-service" id="ui" className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden">
           <Image
             src={"/uiDevelopment1.svg"}
             alt="Phone screen with a thumbs up over top of some UI"
@@ -24,8 +24,8 @@ export default function Services() {
             services. From designing simple components to full-on component
             libraries, I will surely make your page pop.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/static-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/static1.svg"}
             alt="A website with a couple of different static pages surrounding it"
@@ -41,8 +41,8 @@ export default function Services() {
             efficiently. Count on me to bring your vision to life with precision
             and creativity and responsiveness.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/dynamic-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/dynamic.svg"}
             alt="A crane holding up a frame of a website while some machinery works on the web page"
@@ -58,8 +58,8 @@ export default function Services() {
             services will transform your ideas into dynamic, feature-rich
             applications that captivate your audience.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/database-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/database.svg"}
             alt="Two machines that resemble humans with robot heads dancing gleefully as money prints from their mouths while the stocks rise on the screen in the back of the room"
@@ -77,8 +77,8 @@ export default function Services() {
             optimize your database performance and streamline your data
             management processes.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/userAuth-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/userAuth.svg"}
             alt="A user sitting at a control center with an eye monocle on, focused for what they are doing"
@@ -96,8 +96,8 @@ export default function Services() {
             solutions that prioritize security and usability, enhancing the
             overall user experience.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/newsletter-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/newsletter.svg"}
             alt="Calendar, next to a screen with some rising stocks and piles of coins with $$"
@@ -115,8 +115,8 @@ export default function Services() {
             effectively communicate with your subscribers and grow your brand
             presence.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/metrics-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/metrics.svg"}
             alt="Cash register printing off a long receipt. The screen on the cash register resembles a surprised/sad face from being overworked"
@@ -133,8 +133,8 @@ export default function Services() {
             providing actionable recommendations, I will help you optimize your
             online presence and drive results.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/advocate-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/devadvocate.svg"}
             alt="A robot teaching a class on what appears to be algebra. The robot is pointing a stick at a chalkboard that contains some different graphs. School setting."
@@ -150,8 +150,8 @@ export default function Services() {
             that I know, from principals of UI/UX design to Object Oriented
             Programming. I can help you to become a better developer.
           </p>
-        </div>
-        <div className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
+        </a>
+        <a href="/services/random-service" className="text-center py-4 rounded-lg hover:shadow-lg sm:text-left overflow-hidden">
           <Image
             src={"/1off.svg"}
             alt="Website shattering while someone at a control desk is trying something to fix it"
@@ -168,7 +168,7 @@ export default function Services() {
             Whether it be a custom feature or a technical hurdle, I am here to
             deliver bespoke solutions that exceed expectations.
           </p>
-        </div>
+        </a>
       </div>
     </section>
   );
