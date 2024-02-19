@@ -11,24 +11,28 @@ const features = [
     description:
       "Full application design & individual component designs / templates",
     icon: ComputerDesktopIcon,
+    href: "/services/ui-service",
   },
   {
     name: "Full Stack Solutions",
     description:
       "From static single page web applications to dynamic with a database and user management",
     icon: CommandLineIcon,
+    href: "/services/dynamic-service",
   },
   {
     name: "Newsletter & Email Services",
     description:
       "Set up your users to get your latest updates and information, automated through email",
     icon: InboxIcon,
+    href: "/services/newsletter-service",
   },
   {
     name: "User Authentication & Management",
     description:
       "Bring account creation to your users and manage account features / tools",
     icon: FingerPrintIcon,
+    href: "/services/userAuth-service",
   },
 ];
 
@@ -63,19 +67,20 @@ export default function Hero() {
                 <dd className="mt-2 text-base leading-7 text-gray-600">
                   {feature.description}
                 </dd>
+                <a href={feature.href} className="text-sm text-sky-400 hover:text-sky-600">View Service</a>
               </div>
             ))}
           </dl>
           <div className="flex justify-evenly pt-20">
             <a
               href="/schedule"
-              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
             >
               Schedule
             </a>
             <a
               href="/contact"
-              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-2 border-white p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
             >
               Contact
             </a>
