@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <h2 className="text-3xl font-bold  mb-4">About Me</h2>
           <p className="text-lg text-gray-700 mb-6">
-            Hi there! I'm Clif, a U.S. veteran turned freelance web developer specializing in full
+            Hi there! I am Clif, a U.S. veteran turned freelance web developer specializing in full
             stack web development. I love crafting beautiful and functional
             websites using cutting-edge technologies.
           </p>
@@ -59,7 +59,7 @@ const About = () => {
           </ul>
 
           <p className="text-lg text-gray-700">
-            If you're looking for a reliable and dedicated developer for your
+            If you are looking for a reliable and dedicated developer for your
             next project, feel free to{" "}
             <a href="/contact" className="text-sky-400 underline">
               reach out to me!
