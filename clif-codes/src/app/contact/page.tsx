@@ -26,7 +26,7 @@ export default function Contact() {
             width={150}
             height={150}
           />
-          <h4 className="text-sky-400 pt-[1rem]">Freelance Web Developer</h4>
+          <h4 className="text-sky-500 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
       <aside className="text-gray-500 text-center py-4 underline italic">Note: The buttons below are external links</aside>

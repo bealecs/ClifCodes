@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="inline-block sm:block">
             <div className="flex mb-8">
               <a href="/" className="font-mono text-black-400 pr-2 text-4xl">Clif</a>
-              <a href="/" className="font-mono text-sky-400 text-4xl">Codes</a>
+              <a href="/" className="font-mono text-sky-500 text-4xl">Codes</a>
             </div>
             <p className="text-sm sm:text-base">
               © 2024 Clif Codes, LLC. All Rights Reserved.
@@ -21,7 +21,7 @@ const Footer = () => {
             <h3 className="font-bold text-sm sm:text-base mb-2">Legal</h3>
             <ul className="text-sm leading-8 sm:text-base">
               <li>
-                <a href="/terms" className="transition duration-300 ease-out hover:text-sky-400 py-4">
+                <a href="/terms" className="transition duration-300 ease-out hover:text-sky-500 py-4">
                   Terms of Service
                 </a>
               </li>
@@ -33,12 +33,12 @@ const Footer = () => {
             <h3 className="font-bold text-sm sm:text-base mb-2">Navigation</h3>
             <ul className="text-sm leading-8 sm:text-base">
               <li>
-                <a href="/schedule" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="/schedule" className="transition duration-300 ease-out hover:text-sky-500">
                   Schedule Consult
                 </a>
               </li>
               <li>
-                <a href="/contact" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="/contact" className="transition duration-300 ease-out hover:text-sky-500">
                   Contact Clif
                 </a>
               </li>
@@ -50,17 +50,17 @@ const Footer = () => {
             <h3 className="font-bold text-sm sm:text-base mb-2">Find Me</h3>
             <ul className="text-sm leading-8 sm:text-base">
               <li>
-                <a href="https://linkedin.com/in/clif-beale" target="_blank" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="https://linkedin.com/in/clif-beale" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://www.upwork.com/freelancers/~0180b9bc5164c60130?mp_source=share" target="_blank" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="https://www.upwork.com/freelancers/~0180b9bc5164c60130?mp_source=share" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
                   UpWork
                 </a>
               </li>
               <li>
-                <a href="https://discord.com/users/367069635083894784" target="_blank" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="https://discord.com/users/367069635083894784" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
                   Discord
                 </a>
               </li>
@@ -72,17 +72,17 @@ const Footer = () => {
             <h3 className="font-bold text-sm sm:text-base mb-2">Company</h3>
             <ul className="text-sm leading-8 sm:text-base">
               <li>
-                <a href="https://dev.to/bealecs" target="_blank" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="https://dev.to/bealecs" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="https://clif.codes" target="_blank" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="https://clif.codes" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="/about" className="transition duration-300 ease-out hover:text-sky-400">
+                <a href="/about" className="transition duration-300 ease-out hover:text-sky-500">
                   About
                 </a>
               </li>
