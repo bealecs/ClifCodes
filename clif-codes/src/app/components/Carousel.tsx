@@ -60,11 +60,9 @@ export default function Carousel() {
       <div className="flex">
         {mySkills.map((skill: Skill) => (
           <div key={randomUUID()} className="w-48 flex-none px-2">
-            <Image
-              className="m-auto items-center content-center"
+            <img
+              className="m-auto items-center content-center w-8/12 sm:w-6/12"
               src={skill.icon}
-              height={80}
-              width={80}
               alt={`Skill possessed by Clif, icon representing skill of: ${skill.technology}`}
             />
             <p className="font-sans text-1xl m-auto mt-[1rem] items-center content-center w-fit">{skill.technology}</p>
@@ -72,10 +70,8 @@ export default function Carousel() {
         ))}
         {mySkills.map((skill: Skill) => (
           <div key={randomUUID()} className="w-48 flex-none px-2">
-            <Image
-              height={80}
-              width={80}
-              className="m-auto items-center content-center"
+            <img
+              className="m-auto items-center content-center w-8/12 sm:w-6/12"
               src={skill.icon}
               alt={`Skill possessed by Clif, icon representing skill of: ${skill.technology}`}
             />
