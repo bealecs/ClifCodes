@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Mockups() {
   return (
     <section id="mockup" className="w-[80%] mx-auto">
-      <h4 className="text-center text-3xl font-bold sm:hidden">Responsive solutions for any device</h4>
+      <h3 className="text-center text-3xl font-bold sm:hidden">Responsive solutions for any device</h3>
       <h4 className="lg:hidden md:hidden font-bold text-left mb-16 text-2xl">Responsive Solutions</h4>
       <div className="flex flex-row justify-evenly mx-auto flex-wrap">
         <Image

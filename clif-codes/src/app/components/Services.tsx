@@ -4,9 +4,9 @@ import React from "react";
 export default function Services() {
   return (
     <section id="services" className="py-8">
-      <h4 className="text-center text-3xl font-bold  sm:text-left sm:px-[1rem]">
+      <h3 className="text-center text-3xl font-bold  sm:text-left sm:px-[1rem]">
         Core Services
-      </h4>
+      </h3>
       <div className="grid grid-cols-3 gap-4 w-7/12 mx-auto my-[3rem] md:flex md:flex-col md:w-[60%] sm:flex sm:flex-col sm:w-[90%]">
         <a href="/services/ui-service" id="ui" className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden">
           <Image
