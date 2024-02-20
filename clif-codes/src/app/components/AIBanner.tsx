@@ -19,9 +19,9 @@ const AIBanner = () => {
       </a>
       <button
           onClick={handleClose}
-          className="absolute right-5 text-sky-600 text-4xl items-center content-center sm:text-2xl"
+          className="absolute right-5 text-sky-600 text-2xl items-center content-center sm:text-base"
         >
-          🗙
+          ❌
         </button>
     </div>
   );

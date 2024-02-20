@@ -18,39 +18,39 @@ interface Skill {
 const mySkills: Skill[] = [
   {
     technology: "JavaScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    icon: "/javascript.svg",
   },
   {
     technology: "React.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    icon: "/react.svg",
   },
   {
     technology: "Next.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    icon: "/nextjs.svg",
   },
   {
     technology: "Node.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+    icon: "/nodejs.svg",
   },
   {
     technology: "TypeScript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    icon: "/typescript.svg",
   },
   {
     technology: "HTML",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+    icon: "/html5.svg",
   },
   {
     technology: "CSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+    icon: "/css3.svg",
   },
   {
     technology: "Tailwind",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    icon: "/tailwindcss.svg",
   },
   {
     technology: "Supabase",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
+    icon: "/supabase.svg",
   },
 ];
 
