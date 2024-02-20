@@ -56,7 +56,7 @@ const mySkills: Skill[] = [
 
 export default function Carousel() {
   return (
-    <div className="overflow-hidden m-auto my-[5rem] w-7/12">
+    <div className="overflow-hidden m-auto my-[5rem] w-7/12 sm:w-full">
       <div className="flex">
         {mySkills.map((skill: Skill) => (
           <div key={randomUUID()} className="w-48 flex-none px-2">

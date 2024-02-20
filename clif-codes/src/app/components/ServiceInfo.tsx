@@ -31,7 +31,7 @@ export default function ServiceInfo(service: Service) {
       <div className="border-b border-gray-300 mt-4"></div>
       <div className="mt-8 px-4 min-h-[48vh] leading-10 text-lg w-8/12 mx-auto sm:w-full sm:mx-0">
         <div className="flex flex-col">
-          <div className="flex flex-wrap my-4 border-2 w-fit rounded-lg px-4 sm:px-0">
+          <div className="flex flex-wrap my-4 border-2 w-fit rounded-lg px-4 sm:px-0 ">
             <a href="/" className="items-center content-center m-auto mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

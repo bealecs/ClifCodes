@@ -13,7 +13,7 @@ function Form() {
       <textarea
         id="message"
         name="message"
-        className='border-[0.12rem] w-[30%] h-40 mx-auto p-1'
+        className='border-[0.12rem] w-[30%] h-40 mx-auto p-1 sm:w-[70%] sm:h-20'
       />
       <ValidationError 
         prefix="Message" 
