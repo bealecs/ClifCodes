@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Great_Vibes } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${great_vibes.variable}`}>
       <body className={inter.className}>{children}</body>
+      <GoogleAnalytics gaId="G-0RBTWP2ZY6" />
     </html>
   );
 }
