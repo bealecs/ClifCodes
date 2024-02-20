@@ -95,7 +95,7 @@ const TermsOfService = () => {
           </li>
         </ul>
       </div>
-      <a href="/" className="bg-sky-400 p-3 rounded-lg text-white block w-fit mx-auto mt-[2rem] hover:bg-sky-600">Back to home</a>
+      <a href="/" className="bg-sky-500 p-3 rounded-lg text-white block w-fit mx-auto mt-[2rem] hover:bg-sky-600">Back to home</a>
     </div>
   );
 };

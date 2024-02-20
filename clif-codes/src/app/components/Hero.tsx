@@ -41,7 +41,7 @@ export default function Hero() {
     <div className="bg-white py-8 sm:py-4">
       <div className="mx-auto w-7/12 sm:w-[100%] px-6 lg:px-8">
   <div className="mx-auto max-w-2xl lg:text-center">
-    <h2 className="text-base font-semibold leading-7 text-sky-400">
+    <h2 className="text-2xl font-semibold leading-7 text-sky-500">
       Veteran owned & operated
     </h2>
     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -56,7 +56,7 @@ export default function Hero() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-400">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-500">
                     <feature.icon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
@@ -67,20 +67,20 @@ export default function Hero() {
                 <dd className="mt-2 text-base leading-7 text-gray-600">
                   {feature.description}
                 </dd>
-                <a href={feature.href} className="text-sm text-sky-400 hover:text-sky-600">View Service</a>
+                <a href={feature.href} className="text-sm text-sky-500 hover:text-sky-600">View Service</a>
               </div>
             ))}
           </dl>
           <div className="flex justify-evenly pt-20">
             <a
               href="/schedule"
-              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
             >
               Schedule
             </a>
             <a
               href="/contact"
-              className="transition duration-300 ease-in-out bg-sky-400 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
             >
               Contact
             </a>

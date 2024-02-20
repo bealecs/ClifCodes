@@ -20,7 +20,7 @@ function Form() {
         field="message"
         errors={state.errors}
       />
-      <button className='transition duration-300 ease-in-out border-[0.12rem] my-4 p-2 rounded-lg bg-sky-400 text-white border-black hover:bg-sky-600' type="submit" disabled={state.submitting}>
+      <button className='transition duration-300 ease-in-out border-[0.12rem] my-4 p-2 rounded-lg bg-sky-500 text-white border-black hover:bg-sky-600' type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>

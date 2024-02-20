@@ -46,7 +46,7 @@ export default function ServiceInfo(service: Service) {
             <span className="sm:hidden">{"->"}</span>
             <a href="/#services" className="mx-2 sm:hidden">Services</a>
             <span>{"->"}</span>
-            <p className="mx-2 text-sky-400 underline">{service.service}</p>
+            <p className="mx-2 text-sky-500 underline">{service.service}</p>
           </div>
           <h4 className="text-xl font-bold">What is {service.service}?</h4>
           <p className="mt-4 sm:mt-8">{service.description}</p>
