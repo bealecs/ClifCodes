@@ -156,17 +156,20 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a
-            href={pathname === "/schedule" ? "/" : "/schedule"}
-            className="text-base font-semibold leading-6 text-gray-900"
-          >
-            {pathname === "/schedule" ? "Home Page" : "Schedule Consultation"}
+          <a className="text-base font-semibold leading-6 text-gray-900" href="https://clif.codes" target="_blank" rel="noopener">
+            Portfolio
           </a>
           <a
             href={pathname === "/contact" ? "/" : "/contact"}
             className="text-base font-semibold leading-6 text-gray-900"
           >
             {pathname === "/contact" ? "Home Page" : "Contact"}
+          </a>
+          <a
+            href={pathname === "/schedule" ? "/" : "/schedule"}
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            {pathname === "/schedule" ? "Home Page" : "Schedule Consultation"}
           </a>
         </Popover.Group>
       </nav>
@@ -224,6 +227,15 @@ export default function Header() {
                     </>
                   )}
                 </Disclosure>
+                <a href="https://clif.codes" target="_blank" rel="noopener" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  Portfolio
+                </a>
+                <a
+                  href={pathname === "/contact" ? "/" : "/contact"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {pathname === "/contact" ? "Home Page" : "Contact"}
+                </a>
                 <a
                   href={pathname === "/schedule" ? "/" : "/schedule"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
@@ -231,12 +243,6 @@ export default function Header() {
                   {pathname === "/schedule"
                     ? "Home Page"
                     : "Schedule Consultation"}
-                </a>
-                <a
-                  href={pathname === "/contact" ? "/" : "/contact"}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  {pathname === "/contact" ? "Home Page" : "Contact"}
                 </a>
               </div>
             </div>

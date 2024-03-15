@@ -74,13 +74,13 @@ export default function Hero() {
           <div className="flex justify-evenly pt-20">
             <a
               href="/schedule"
-              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
             >
               Schedule
             </a>
             <a
               href="/contact"
-              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.12rem] border-black p-4 rounded-lg"
+              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
             >
               Contact
             </a>
