@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${great_vibes.variable}`}>
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-0RBTWP2ZY6" />
+      <GoogleAnalytics gaId="G-HPCGNVPZPT" />
     </html>
   );
 }
