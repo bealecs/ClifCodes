@@ -227,7 +227,7 @@ export default function Header() {
                     </>
                   )}
                 </Disclosure>
-                <a href="https://clif.codes" target="_blank" rel="noopener" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                <a href="https://clifcodes-bealecs.vercel.app/" target="_blank" rel="noopener" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                   Portfolio
                 </a>
                 <a
