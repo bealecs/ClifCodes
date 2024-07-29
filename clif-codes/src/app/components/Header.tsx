@@ -156,7 +156,7 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a className="text-base font-semibold leading-6 text-gray-900" href="https://clif.codes" target="_blank" rel="noopener">
+          <a className="text-base font-semibold leading-6 text-gray-900" href="https://clifcodes-bealecs.vercel.app/" target="_blank" rel="noopener">
             Portfolio
           </a>
           <a
