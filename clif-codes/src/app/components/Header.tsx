@@ -156,8 +156,8 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a className="text-base font-semibold leading-6 text-gray-900" href="https://clifcodes-bealecs-projects.vercel.app/" target="_blank" rel="noopener">
-            Portfolio
+          <a className="text-base font-semibold leading-6 text-gray-900" href={pathname === "/gallery" ? "/" : "/gallery"}>
+          {pathname === "/gallery" ? "Home Page" : "Gallery"}
           </a>
           <a
             href={pathname === "/contact" ? "/" : "/contact"}
@@ -166,10 +166,10 @@ export default function Header() {
             {pathname === "/contact" ? "Home Page" : "Contact"}
           </a>
           <a
-            href={pathname === "/schedule" ? "/" : "/schedule"}
+            href={pathname === "/about" ? "/" : "/about"}
             className="text-base font-semibold leading-6 text-gray-900"
           >
-            {pathname === "/schedule" ? "Home Page" : "Schedule Consultation"}
+            {pathname === "/about" ? "Home Page" : "About Clif"}
           </a>
         </Popover.Group>
       </nav>
@@ -227,8 +227,8 @@ export default function Header() {
                     </>
                   )}
                 </Disclosure>
-                <a href="https://clifcodes-bealecs-projects.vercel.app/" target="_blank" rel="noopener" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  Portfolio
+                <a href={pathname === "/gallery" ? "/" : "/gallery"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                  {pathname === "/gallery" ? "Home Page" : "Gallery"}
                 </a>
                 <a
                   href={pathname === "/contact" ? "/" : "/contact"}
@@ -237,12 +237,12 @@ export default function Header() {
                   {pathname === "/contact" ? "Home Page" : "Contact"}
                 </a>
                 <a
-                  href={pathname === "/schedule" ? "/" : "/schedule"}
+                  href={pathname === "/about" ? "/" : "/about"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {pathname === "/schedule"
                     ? "Home Page"
-                    : "Schedule Consultation"}
+                    : "About Clif"}
                 </a>
               </div>
             </div>

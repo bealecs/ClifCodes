@@ -2,7 +2,6 @@ import Image from "next/image";
 import Header from "../components/Header";
 import { SocialIcon } from "react-social-icons";
 import Footer from "../components/Footer";
-import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -11,10 +10,11 @@ export default function Contact() {
       <div className="flex justify-around max-w-5xl m-auto pt-[4rem] items-center content-center sm:flex-col sm:pt-[2rem]">
         <div className="flex flex-col justify-between w-[50%] sm:w-[75%]">
           <h2 className="font-bold text-3xl">Point of Contact</h2>
+          <a href="/schedule" className="mt-2 border-2 w-fit rounded px-1 transition duration-300 linear hover:bg-zinc-200 hover:border-blue-300 hover:text-blue-600">Schedule Consultation</a>
           <p className="pt-[2rem]">
             I am Clif, a passionate web developer of three years. I like to
             solve problems and build new things. I am passionate about AI,
-            accessability, & performance. Reach out now to get started working
+            accessibility, & performance. Reach out now to get started working
             towards your next solution.
           </p>
         </div>
@@ -39,7 +39,7 @@ export default function Contact() {
         />
         <SocialIcon
           bgColor="rgb(56 189 248)"
-          href="mailto:cliftonscottbeale@gmail.com"
+          href="https://www.upwork.com/freelancers/~0180b9bc5164c60130?mp_source=share"
           className="transition duration-300 ease-in-out border-[0.12rem] rounded-[100%] border-black hover:scale-125"
           target="_blank"
           network="email"
@@ -52,10 +52,6 @@ export default function Contact() {
           network="discord"
         />
       </div>
-      <h4 className="text-center text-2xl font-medium">
-        Anonymous Feedback
-      </h4>
-      <ContactForm />
       <Footer />
     </>
   );

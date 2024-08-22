@@ -77,13 +77,13 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://clif.codes" target="_blank" className="transition duration-300 ease-out hover:text-sky-500">
-                  Portfolio
+                <a href="/gallery" className="transition duration-300 ease-out hover:text-sky-500">
+                  Gallery
                 </a>
               </li>
               <li>
                 <a href="/about" className="transition duration-300 ease-out hover:text-sky-500">
-                  About
+                  About Clif
                 </a>
               </li>
             </ul>

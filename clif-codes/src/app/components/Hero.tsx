@@ -42,7 +42,7 @@ export default function Hero() {
       <div className="mx-auto w-7/12 sm:w-[100%] px-6 lg:px-8">
   <div className="mx-auto max-w-2xl lg:text-center">
     <h2 className="text-2xl font-semibold leading-7 text-sky-500">
-      Veteran owned & operated
+      U.S. Veteran operated
     </h2>
     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
     Elevate Your Strategy with Premium Solutions
@@ -73,14 +73,14 @@ export default function Hero() {
           </div>
           <div className="flex justify-evenly pt-20">
             <a
-              href="/schedule"
-              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
+              href="/gallery"
+              className="transition duration-300 ease-in-out bg-sky-500 lg:w-3/12 w-5/12 text-center text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
             >
-              Schedule
+              View Gallery
             </a>
             <a
               href="/contact"
-              className="transition duration-300 ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
+              className="transition duration-300 lg:w-3/12 w-5/12 text-center ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
             >
               Contact
             </a>

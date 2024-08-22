@@ -1,14 +1,5 @@
 import { randomUUID } from 'crypto';
 import React from 'react';
-import { Italianno } from 'next/font/google';
-import Image from 'next/image';
-
-const italianno = Italianno({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-italianno',
-  weight: '400'
-})
 
 interface Skill {
   technology: string;

@@ -1,5 +1,3 @@
-// pages/About.js
-
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -25,44 +23,72 @@ const About = () => {
             <span className="sm:hidden">{"->"}</span>
             <p className="mx-2 text-sky-400 underline">About Me</p>
           </div>
-          <h2 className="text-3xl font-bold  mb-4">About Me</h2>
-          <p className="text-lg text-gray-700 mb-6">
-            Hi there! I am Clif, a U.S. veteran turned freelance web developer specializing in full
-            stack web development. I love crafting beautiful and functional
-            websites using cutting-edge technologies.
+          <h2 className="text-3xl font-bold  mb-4">Hi, I'm Clif :)</h2>
+          <p className="text-xl font-semibold">
+            I specialize in crafting stunning experiences on the web.
           </p>
-          <p className="text-lg text-gray-700 mb-6">
-            With three years of experience in the industry, I have a passion for
-            keeping up to date with the latest technologies in order to continue building performant, user-friendly, scalable web applications.
+          <p className="text-lg font-semibold mt-4">
+            My preferred tech stack includes (but is not limited to):
           </p>
-          <p className="text-lg text-gray-700">
+          <div className="flex text-lg">
+            <ul className="list-disc mx-6">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS/Tailwind</li>
+              <li>AWS Infrastructure</li>
+            </ul>
+            <ul className="list-disc mx-4 text-lg">
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>PostgresQL</li>
+            </ul>
+          </div>
+          <div className="my-4">
+            <p className="text-lg mb-6 leading-loose">
+              I began to learn how to code while I was in the military. I served
+              4 years in the U.S. Air Force. Throughout my time in the service,
+              I would spend my free time learning how to program with JavaScript
+              and HTML to static websites. Fast forward several years, and I
+              have learned so much. I have built so many websites and even had
+              some amazing personal projects that I was able to bring to life.
+            </p>
+            <p className="text-lg mb-6 leading-loose">
+              Now, I focus most of my time building with the latest and greatest technologies. I prefer to scaffold my work with AWS infrastructure, as it is a very reliable cloud service that scales as needed.
+              I can quickly build out my front ends with React and and Tailwind CSS while leveraging AWS for my backend services like Lambda functions, storage, authentication, and database. 
+            </p>
+            <p className="text-lg mb-6 font-semibold">
+              Coding is not only a job for me, but also a long-time hobby.
+            </p>
+          </div>
+
+          <p className="text-lg">
             Some of the things I am passionate about include:
           </p>
           <ul className="list-disc ml-6 pb-6">
-            <li>Accessability</li>
-            <li>Web Performance</li>
-            <li>Responsivity</li>
-            <li>AI</li>
+            <li className="italic text-lg my-2">
+              Keeping up-to-date with industry accessibility standards
+            </li>
+            <li className="italic text-lg my-2">
+              Maintaining peak performance metrics
+            </li>
+            <li className="italic text-lg my-2">Stunning UI/UX on any device</li>
+            <li className="italic text-lg my-2">
+              Innovation and invention - bringing ideas to life
+            </li>
           </ul>
-          <p className="text-lg pb-6">Lately I have been interested especially in working with AI. Inquire about integrating AI with your solution!</p>
-          <p className="text-lg text-gray-700">My main skills include:</p>
-          <ul className="list-disc ml-6 pb-6">
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Next.js</li>
-            <li>TypeScript</li>
-            <li>Supabase</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Figma</li>
-          </ul>
+          <p className="text-lg pb-6">
+            Lately, I've been particularly interested in working with AI. As
+            technology advances, I believe it's crucial to stay updated with
+            these changes. AI introduces an exciting new focal point for
+            building projects and bringing ideas to life.
+          </p>
 
-          <p className="text-lg text-gray-700">
+          <p className="text-lg">
             If you are looking for a reliable and dedicated developer for your
-            next project, feel free to{" "}
+            next project, look no further!{" "}
             <a href="/contact" className="text-sky-400 underline">
-              reach out to me!
+              Reach out to me
             </a>
           </p>
         </div>
