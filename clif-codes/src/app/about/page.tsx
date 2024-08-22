@@ -23,7 +23,7 @@ const About = () => {
             <span className="sm:hidden">{"->"}</span>
             <p className="mx-2 text-sky-400 underline">About Me</p>
           </div>
-          <h2 className="text-3xl font-bold  mb-4">Hi, I'm Clif :)</h2>
+          <h2 className="text-3xl font-bold  mb-4">Hi, I&apos;m Clif :)</h2>
           <p className="text-xl font-semibold">
             I specialize in crafting stunning experiences on the web.
           </p>
@@ -78,8 +78,8 @@ const About = () => {
             </li>
           </ul>
           <p className="text-lg pb-6">
-            Lately, I've been particularly interested in working with AI. As
-            technology advances, I believe it's crucial to stay updated with
+            Lately, I&apos;ve been particularly interested in working with AI. As
+            technology advances, I believe it&apos;s crucial to stay updated with
             these changes. AI introduces an exciting new focal point for
             building projects and bringing ideas to life.
           </p>
