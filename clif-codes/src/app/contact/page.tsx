@@ -39,7 +39,7 @@ export default function Contact() {
         />
         <SocialIcon
           bgColor="rgb(56 189 248)"
-          href="https://www.upwork.com/freelancers/~0180b9bc5164c60130?mp_source=share"
+          href="https://clifcodes.dev/schedule"
           className="transition duration-300 ease-in-out border-[0.12rem] rounded-[100%] border-black hover:scale-125"
           target="_blank"
           network="email"
