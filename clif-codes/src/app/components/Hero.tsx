@@ -7,13 +7,6 @@ import {
 
 const features = [
   {
-    name: "UI Design Services",
-    description:
-      "Full application design & individual component designs / templates",
-    icon: ComputerDesktopIcon,
-    href: "/services/ui-service",
-  },
-  {
     name: "Full Stack Solutions",
     description:
       "From static single page web applications to dynamic with a database and user management",
@@ -21,11 +14,11 @@ const features = [
     href: "/services/dynamic-service",
   },
   {
-    name: "Newsletter & Email Services",
+    name: "UI Design Services",
     description:
-      "Set up your users to get your latest updates and information, automated through email",
-    icon: InboxIcon,
-    href: "/services/newsletter-service",
+      "Full application design & individual component designs / templates",
+    icon: ComputerDesktopIcon,
+    href: "/services/ui-service",
   },
   {
     name: "User Authentication & Management",
@@ -34,6 +27,13 @@ const features = [
     icon: FingerPrintIcon,
     href: "/services/userAuth-service",
   },
+  {
+    name: "Newsletter & Email Services",
+    description:
+      "Set up your users to get your latest updates and information, automated through email",
+    icon: InboxIcon,
+    href: "/services/newsletter-service",
+  }
 ];
 
 export default function Hero() {
