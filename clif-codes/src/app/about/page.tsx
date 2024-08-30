@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 const About = () => {
   return (
     <>
       <Header />
       <div className="flex flex-col items-center justify-center">
-        <div className="px-4 py-8 w-8/12">
-          <div className="flex flex-wrap my-4 border-2 w-fit rounded-lg p-2 sm:px-0">
+        <div className="px-4 py-8 lg:w-8/12">
+          <div className="flex flex-wrap my-4 border-2 w-fit rounded-lg p-2">
             <a href="/" className="items-center content-center m-auto mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -20,10 +21,11 @@ const About = () => {
                 <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
               </svg>
             </a>
-            <span className="sm:hidden">{"->"}</span>
+            <span>{"->"}</span>
             <p className="mx-2 text-sky-400 underline">About Me</p>
           </div>
-          <h2 className="text-3xl font-bold  mb-4">Hi, I&apos;m Clif :)</h2>
+          <Image src="/pfp.webp" alt="Clifton Beale profile picture" height={200} width={200} className="rounded-xl" />
+          <h2 className="text-3xl font-bold  my-4">Hi, I&apos;m Clif :)</h2>
           <p className="text-xl font-semibold">
             I specialize in crafting stunning experiences on the web.
           </p>
