@@ -24,7 +24,11 @@ const About = () => {
             <span>{"->"}</span>
             <p className="mx-2 text-sky-400 underline">About Me</p>
           </div>
-          <Image src="/pfp.png" alt="Clifton Beale profile picture" height={200} width={200} className="rounded-xl" />
+        <div className="lg:flex">
+          <div className="lg:hidden border-4 border-black w-fit h-fit m-auto rounded-full">
+          <Image src="/pfp.png" alt="Clifton Beale profile picture" height={100} width={200} className="rounded-full border-4 border-sky-400 object-cover h-[200px] w-[200px]" />
+          </div>
+          <div>
           <h2 className="text-3xl font-bold  my-4">Hi, I&apos;m Clif :)</h2>
           <p className="text-xl font-semibold">
             I specialize in crafting stunning experiences on the web.
@@ -45,6 +49,11 @@ const About = () => {
               <li>Node.js</li>
               <li>PostgresQL</li>
             </ul>
+          </div>
+          </div>
+          <div className="hidden lg:block border-4 border-black w-fit h-fit m-auto rounded-full">
+          <Image src="/pfp.png" alt="Clifton Beale profile picture" height={100} width={200} className="rounded-full border-4 border-sky-400 object-cover h-[200px] w-[200px]" />
+          </div>
           </div>
           <div className="my-4">
             <p className="text-lg mb-6 leading-loose">
