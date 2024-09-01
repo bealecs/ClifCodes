@@ -1,4 +1,4 @@
-import AIBanner from "./components/AIBanner";
+import AnnouncementBanner from "./components/AIBanner";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <AIBanner />
+      <AnnouncementBanner />
       <Hero />
       <Carousel />
       <Services />

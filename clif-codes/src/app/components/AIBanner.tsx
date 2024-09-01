@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const AIBanner = () => {
+const AnnouncementBanner = () => {
   const [open, setOpen] = useState(true);
 
   function handleClose() {
@@ -12,9 +12,9 @@ const AIBanner = () => {
 
   return (
     <div className={open ? "flex items-center content-center" : "hidden"}>
-      <a href="/services/ai-service" className="w-full h-16 bg-gradient-to-r from-sky-200 via-sky-500 to-sky-200 flex items-center justify-center">
+      <a href="/gallery" className="w-full h-16 bg-gradient-to-r from-sky-200 via-sky-500 to-sky-200 flex items-center justify-center">
         <h1 className="text-white text-2xl font-bold max-w-[80%] sm:text-base">
-          Introducing AI Integration Solutions!
+          View the updated portfolio gallery!
         </h1>
       </a>
       <button
@@ -27,4 +27,4 @@ const AIBanner = () => {
   );
 };
 
-export default AIBanner;
+export default AnnouncementBanner;
