@@ -24,7 +24,7 @@ const About = () => {
             <span>{"->"}</span>
             <p className="mx-2 text-sky-400 underline">About Me</p>
           </div>
-          <Image src="/pfp.webp" alt="Clifton Beale profile picture" height={200} width={200} className="rounded-xl" />
+          <Image src="/pfp.png" alt="Clifton Beale profile picture" height={200} width={200} className="rounded-xl" />
           <h2 className="text-3xl font-bold  my-4">Hi, I&apos;m Clif :)</h2>
           <p className="text-xl font-semibold">
             I specialize in crafting stunning experiences on the web.
