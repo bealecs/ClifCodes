@@ -72,7 +72,7 @@ const Gallery = () => {
                     height={500}
                     width={500}
                     alt="icon"
-                    src={"/sfrSolutions.png"}
+                    src={"/SFR.png"}
                   />
                 </a>
                 <a href="/gallery/static/cclighting" className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl">

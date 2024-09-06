@@ -6,6 +6,6 @@ const technologies = ["Figma", "HTML", "CSS"];
 
 export default function SFRSolutions() {
     return (
-        <ProjectDisplay website="https://sfr-solutions.netlify.app/" projectName="SFR Solutions" imageSrc="/sfrSolutions.png" github="https://github.com/bealecs/sfr-solutions" description={description} missionStatement={missionStatement} technologies={technologies}  />
+        <ProjectDisplay website="https://sfr-solutions.netlify.app/" projectName="SFR Solutions" imageSrc="/SFR.png" github="https://github.com/bealecs/sfr-solutions" description={description} missionStatement={missionStatement} technologies={technologies}  />
     )
 }
