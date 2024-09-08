@@ -1,6 +1,8 @@
 import React from "react";
 
 const Footer = () => {
+  const date = new Date().getFullYear();
+  
   return (
     <footer className="pt-16 sm:hidden">
       <div className="container mx-auto">
@@ -12,7 +14,7 @@ const Footer = () => {
               <a href="/" className="font-mono text-sky-500 text-4xl">Codes</a>
             </div>
             <p className="text-sm sm:text-base">
-              © 2024 Clif Codes, LLC. All Rights Reserved.
+              © {date} Clif Codes, LLC. All Rights Reserved.
             </p>
           </div>
 
