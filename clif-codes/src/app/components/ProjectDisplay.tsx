@@ -10,6 +10,7 @@ interface Project {
   technologies: string[];
   github: string | null;
   website: string | null;
+  webMockupImg: string | null;
 }
 
 export default function ProjectDisplay(project: Project) {
@@ -50,16 +51,20 @@ export default function ProjectDisplay(project: Project) {
             <span>{"->"}</span>
             <p className="mx-2 text-sky-500 underline">{project.projectName}</p>
           </div>
+          
            <h4 className="text-xl font-bold my-4">Technologies Used:</h4>
            <div className="flex flex-wrap justify-start">
             {project.technologies.map((technology) => {
               return (
                 <ul key={technology}>
-                  <li className="w-fit mr-8 italic">{technology}</li>
+                  <li className="w-fit mr-4 font-semibold border-2 rounded p-2 my-2 bg-gray-200 text-sm">{technology}</li>
                 </ul>
               );
             })}
           </div>
+          {/* <div className="w-fit mx-auto">
+            <Image src={project.webMockupImg} alt={`Mockup for ${project.projectName}`} width={1050} height={450} />
+          </div> */}
           <h4 className="text-2xl font-bold mt-4">What is {project.projectName}?</h4>
           {project.website != null && <a href={project.website} target="_blank" rel="noopener noreffer" className="text-sky-400 underline mb-4 ">Visit the website</a>}
           <p>{project.missionStatement}</p>

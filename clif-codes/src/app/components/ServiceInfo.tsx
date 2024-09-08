@@ -52,12 +52,12 @@ export default function ServiceInfo(service: Service) {
           <p className="mt-4 sm:mt-8">{service.description}</p>
           <p className="mt-4 sm:mt-8">{service.description2}</p>
           
-          <h4 className="text-xl font-bold my-8">Technologies Used:</h4>
+          <h4 className="text-xl font-bold my-6">Technologies Used:</h4>
           <div className="flex flex-wrap justify-start">
             {service.technologies.map((technology) => {
               return (
                 <ul key={technology}>
-                  <li className="w-fit mr-8">{technology}</li>
+                  <li className="w-fit mr-8 font-semibold border-2 rounded bg-gray-200 text-sm p-2">{technology}</li>
                 </ul>
               );
             })}

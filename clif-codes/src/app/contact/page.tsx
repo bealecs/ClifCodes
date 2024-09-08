@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="flex justify-around max-w-5xl m-auto pt-[4rem] items-center content-center sm:flex-col sm:pt-[2rem]">
         <div className="flex flex-col justify-between w-[50%] sm:w-[75%]">
           <h2 className="font-bold text-3xl">Point of Contact</h2>
-          <a href="/schedule" className="mt-2 border-2 w-fit rounded px-1 transition duration-300 linear hover:bg-zinc-200 hover:border-blue-300 hover:text-blue-600">Schedule Consultation</a>
+          <a href="/schedule" className="mt-2 border-2 w-fit rounded px-1 transition duration-300 linear hover:bg-zinc-200 border-sky-500 hover:border-blue-300 hover:text-blue-600">Schedule Consultation</a>
           <p className="pt-[2rem]">
             I am Clif, a passionate web developer of three years. I like to
             solve problems and build new things. I am passionate about AI,
@@ -19,13 +19,9 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col">
-          <Image
-            src="/pfp.webp"
-            alt="profile photo shot of Clif"
-            className="rounded-[50%] pt-[1rem] m-auto"
-            width={150}
-            height={150}
-          />
+          <div className="border-4 rounded-full border-black my-4 lg:my-0">
+          <Image src="/pfp.png" alt="Clifton Beale profile picture" height={100} width={200} className="rounded-full border-4 border-sky-400 object-cover h-[200px] w-[200px]" />
+          </div>
           <h4 className="text-sky-500 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>

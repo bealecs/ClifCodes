@@ -6,6 +6,6 @@ const technologies = ["JavaScript", "TypeScript", "React", "AWS Lambda", "AWS SE
 
 export default function CartDart() {
     return (
-        <ProjectDisplay website="https://cart-dart.vercel.app" projectName="Cart Dart" imageSrc="/cartDartLogo.svg" github="" description={description} missionStatement={missionStatement} technologies={technologies}  />
+        <ProjectDisplay website="https://cart-dart.vercel.app" projectName="Cart Dart" imageSrc="/cartDartLogo.svg" webMockupImg="/cart-dart-screeny.svg" github="" description={description} missionStatement={missionStatement} technologies={technologies}  />
     )
 }

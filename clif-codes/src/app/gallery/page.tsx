@@ -25,13 +25,24 @@ const Gallery = () => {
             <span className="sm:hidden">{"->"}</span>
             <p className="mx-2 text-sky-400 underline">Gallery</p>
           </div>
-          <h2 className="text-5xl text-sky-400 mb-8 font-semibold italic text-center">CHECK OUT MY WORK</h2>
+          <h2 className="text-5xl text-sky-400 mb-8 font-semibold italic text-center">
+            CHECK OUT MY WORK
+          </h2>
           <div>
+            {/* <select className="p-2 border-2 border-sky-400 rounded-lg block w-fit mx-auto">
+              <option value="">Choose a display</option>
+              <option>Full-Stack</option>
+              <option>Static Websites</option>
+              <option>Games/Misc.</option>
+            </select> */}
             <h4 className="font-semibold text-2xl italic mt-4 mx-6 lg:mx-0">
               Full-stack Web Applications
             </h4>
             <div className="sm:flex sm:flex-wrap sm:justify-evenly lg:flex">
-              <a href="/gallery/full-stack/cart-dart" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl">
+              <a
+                href="/gallery/full-stack/cart-dart"
+                className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl"
+              >
                 <Image
                   height={500}
                   width={500}
@@ -39,7 +50,10 @@ const Gallery = () => {
                   src={"/CartDart.png"}
                 />
               </a>
-              <a href="/gallery/full-stack/next-meal" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4  transition duration-300 ease-out hover:shadow-2xl">
+              <a
+                href="/gallery/full-stack/next-meal"
+                className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4  transition duration-300 ease-out hover:shadow-2xl"
+              >
                 <Image
                   height={500}
                   width={500}
@@ -49,9 +63,14 @@ const Gallery = () => {
               </a>
             </div>
             <div>
-              <h4 className="font-semibold text-2xl italic mt-4 mx-6 lg:mx-0">Static Websites</h4>
+              <h4 className="font-semibold text-2xl italic mt-4 mx-6 lg:mx-0">
+                Static Websites
+              </h4>
               <div className="sm:flex sm:flex-wrap justify-evenly lg:flex">
-                <a href="/gallery/static/syaa" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl">
+                <a
+                  href="/gallery/static/syaa"
+                  className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
                   <Image
                     height={500}
                     width={500}
@@ -59,7 +78,10 @@ const Gallery = () => {
                     src={"/syaa.png"}
                   />
                 </a>
-                <a href="/gallery/static/manor" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl">
+                <a
+                  href="/gallery/static/manor"
+                  className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
                   <Image
                     height={500}
                     width={500}
@@ -67,15 +89,16 @@ const Gallery = () => {
                     src={"/manor.png"}
                   />
                 </a>
-                <a href="/gallery/static/sfr-solutions" className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:ml-4 transition duration-300 ease-out hover:shadow-2xl">
-                  <Image
-                    height={500}
-                    width={500}
-                    alt="icon"
-                    src={"/SFR.png"}
-                  />
+                <a
+                  href="/gallery/static/sfr-solutions"
+                  className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:ml-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
+                  <Image height={500} width={500} alt="icon" src={"/SFR.png"} />
                 </a>
-                <a href="/gallery/static/cclighting" className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl">
+                <a
+                  href="/gallery/static/cclighting"
+                  className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
                   <Image
                     height={500}
                     width={500}
@@ -86,9 +109,14 @@ const Gallery = () => {
               </div>
             </div>
             <div>
-              <h4 className="font-semibold text-2xl italic mt-4 mx-6 lg:mx-0">Games/Misc.</h4>
+              <h4 className="font-semibold text-2xl italic mt-4 mx-6 lg:mx-0">
+                Games/Misc.
+              </h4>
               <div className="sm:flex sm:flex-wrap justify-evenly lg:flex">
-                <a href="/gallery/misc/boggle" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl">
+                <a
+                  href="/gallery/misc/boggle"
+                  className="flex border-2 lg:w-fit w-5/12 my-4 lg:mr-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
                   <Image
                     height={500}
                     width={500}
@@ -96,15 +124,16 @@ const Gallery = () => {
                     src={"/boggle.png"}
                   />
                 </a>
-                <a href="/gallery/misc/tictactoe" className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl">
-                  <Image
-                    height={500}
-                    width={500}
-                    alt="icon"
-                    src={"/XO.png"}
-                  />
+                <a
+                  href="/gallery/misc/tictactoe"
+                  className="flex border-2 lg:w-fit w-5/12 my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
+                  <Image height={500} width={500} alt="icon" src={"/XO.png"} />
                 </a>
-                <a href="/gallery/misc/extension" className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl">
+                <a
+                  href="/gallery/misc/extension"
+                  className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl"
+                >
                   <Image
                     height={500}
                     width={500}
@@ -117,7 +146,9 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <h4 className="text-sky-400 text-4xl text-center italic font-semibold">My Tech Stack</h4>
+      <h4 className="text-sky-400 text-4xl text-center italic font-semibold">
+        My Tech Stack
+      </h4>
       <Carousel />
       <Footer />
     </>
