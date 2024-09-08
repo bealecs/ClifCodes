@@ -10,7 +10,7 @@ interface Project {
   technologies: string[];
   github: string | null;
   website: string | null;
-  webMockupImg: string | null;
+  // webMockupImg: string | null;
 }
 
 export default function ProjectDisplay(project: Project) {
