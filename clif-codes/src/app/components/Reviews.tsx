@@ -12,7 +12,7 @@ export default function Reviews() {
         <p>
           &quot;Clif has been a part of the SYAA family for over a decade. From playing baseball as a kid to volunteering throughout the years, his dedication to our community has always been clear. As a teenager, Clif also worked as an umpire, helping to keep the games running smoothly. When we needed a new website to better serve our players and families, Clif stepped up without hesitation, offering to volunteer his time and expertise to make it happen.
 
-The new site has been a game-changer for SYAA. It&apos;s easy for our users to navigate and makes communication with our players and their families much more efficient. We couldn't be more grateful for Clif&apos;s hard work and continued support over the years.&quot;
+The new site has been a game-changer for SYAA. It&apos;s easy for our users to navigate and makes communication with our players and their families much more efficient. We couldn&apos;t be more grateful for Clif&apos;s hard work and continued support over the years.&quot;
         </p>
         <div className="flex items-center my-4">
           <Image
