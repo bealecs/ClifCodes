@@ -87,12 +87,6 @@ const TermsOfService = () => {
         </p>
         <ul className="list-disc pl-6">
           <li>By email: ClifCodes@gmail.com</li>
-          <li>
-            By visiting this page on our website:{" "}
-            <a href="[Your website contact page URL]" className="text-blue-500">
-              https://clif.codes
-            </a>
-          </li>
         </ul>
       </div>
       <a href="/" className="bg-sky-500 p-3 rounded-lg text-white block w-fit mx-auto mt-[2rem] hover:bg-sky-600">Back to home</a>
