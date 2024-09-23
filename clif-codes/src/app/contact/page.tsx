@@ -19,7 +19,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col">
-          <div className="border-4 rounded-full border-black my-4 lg:my-0">
+          <div className="border-4 rounded-full border-black my-4 lg:my-0 w-fit">
           <Image src="/pfp.png" alt="Clifton Beale profile picture" height={100} width={200} className="rounded-full border-4 border-sky-400 object-cover h-[200px] w-[200px]" />
           </div>
           <h4 className="text-sky-500 pt-[1rem]">Freelance Web Developer</h4>
