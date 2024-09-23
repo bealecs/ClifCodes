@@ -47,7 +47,7 @@ export default function Services() {
       serviceRedirectLink: "/services/database-service",
     },
     {
-      serviceName: "User Authentication and Management",
+      serviceName: "User Auth and Management",
       serviceDescription:
         "Protect your users and streamline access to your platform with my user authentication and management services. From secure login systems to user profile management, I will implement reliable solutions that prioritize security and usability, enhancing the overall user experience.",
       serviceImageLink: "/userAuth.svg",
@@ -117,7 +117,7 @@ export default function Services() {
               <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
                 {service.serviceName}
               </h2>
-              <p className="text-gray-500 text-justify tracking-tighter w-11/12 py-[1rem] h-[200px] mx-[1rem] sm:tracking-tight">
+              <p className="text-gray-500 text-start tracking-tighter w-11/12 py-[1rem] h-[200px] mx-[1rem] sm:tracking-tight">
                 {service.serviceDescription}
               </p>
             </a>

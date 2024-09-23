@@ -1,90 +1,51 @@
-import {
-  InboxIcon,
-  ComputerDesktopIcon,
-  FingerPrintIcon,
-  CommandLineIcon,
-} from "@heroicons/react/24/outline";
+import { Sometype_Mono } from "next/font/google";
+import Image from "next/image";
+import TypingEffect from "./TypingEffect";
 
-const features = [
-  {
-    name: "Full Stack Solutions",
-    description:
-      "From static single page web applications to dynamic with a database and user management",
-    icon: CommandLineIcon,
-    href: "/services/dynamic-service",
-  },
-  {
-    name: "UI Design Services",
-    description:
-      "Full application design & individual component designs / templates",
-    icon: ComputerDesktopIcon,
-    href: "/services/ui-service",
-  },
-  {
-    name: "User Authentication & Management",
-    description:
-      "Bring account creation to your users and manage account features / tools",
-    icon: FingerPrintIcon,
-    href: "/services/userAuth-service",
-  },
-  {
-    name: "Newsletter & Email Services",
-    description:
-      "Set up your users to get your latest updates and information, automated through email",
-    icon: InboxIcon,
-    href: "/services/newsletter-service",
-  }
-];
+const font = Sometype_Mono({
+  weight: "400",
+  style: "italic",
+  subsets: ["latin"],
+});
 
 export default function Hero() {
   return (
-    <div className="bg-white py-8 sm:py-4">
-      <div className="mx-auto w-7/12 sm:w-[100%] px-6 lg:px-8">
-  <div className="mx-auto max-w-2xl lg:text-center">
-    <h2 className="text-2xl font-semibold leading-7 text-sky-500">
-      U.S. Veteran operated
-    </h2>
-    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-    Elevate Your Strategy with Premium Solutions
-    </p>
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Delivering high quality, performant results. View some of our solutions below
-    </p>
-  </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
-                <div className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-sky-500">
-                    <feature.icon
-                      className="h-6 w-6 text-white"
-                      aria-hidden="true"
-                    />
-                  </div>
-                  {feature.name}
-                </div>
-                <div className="mt-2 text-base leading-7 text-gray-600">
-                  {feature.description}
-                </div>
-                <a href={feature.href} className="text-sm text-sky-500 hover:text-sky-600">View Service</a>
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-evenly pt-20">
-            <a
-              href="/gallery"
-              className="transition duration-300 ease-in-out bg-sky-500 lg:w-3/12 w-5/12 text-center text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
-            >
-              View Gallery
-            </a>
-            <a
-              href="/contact"
-              className="transition duration-300 lg:w-3/12 w-5/12 text-center ease-in-out bg-sky-500 text-white hover:bg-sky-600 border-[0.10rem] border-black p-4 rounded-lg"
-            >
-              Contact
-            </a>
-          </div>
+    <div className="flex justify-between w-full lg:w-7/12 pb-8 m-auto pt-[4rem] sm:flex-col sm:pt-0">
+      <div className="flex flex-col lg:hidden block">
+        <div>
+          <Image
+            src="/pfp.png"
+            alt="Clifton Beale profile picture"
+            height={225}
+            width={225}
+            className="rounded-full mx-auto"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col justify-between w-full lg:w-fit sm:items-center lg:items-start my-4 lg:my-0">
+      <aside className="text-sky-500 lg:text-xl font-semibold">U.S. Veteran Operated</aside>
+        <TypingEffect />
+        <p className="lg:text-2xl text-xl text-gray-500 italic">
+          Get more done, <span className="font-semibold underline">faster</span>
+        </p>
+        <div className="flex items-start mt-8 lg:my-0">
+          <a href="/gallery" className="transition duration-300 linear hover:bg-sky-500 hover:text-white hover:border-sky-400 border-2 border-sky-200 bg-sky-200 w-fit border-black p-4 mr-4 rounded shadow-lg">
+            View Gallery
+          </a>
+          <a href="/#services" className="transition duration-300 linear hover:bg-sky-500 hover:text-white hover:border-sky-400 border-2 border-sky-200 bg-sky-200 w-fit border-black ml-4 p-4 rounded shadow-lg">
+            Services
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col lg:block hidden">
+        <div>
+          <Image
+            src="/pfp.png"
+            alt="Clifton Beale profile picture"
+            height={275}
+            width={275}
+            className="rounded-full mx-auto"
+          />
         </div>
       </div>
     </div>

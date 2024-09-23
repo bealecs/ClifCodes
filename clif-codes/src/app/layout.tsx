@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Sometype_Mono } from "next/font/google";
 import { Great_Vibes } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
+const font = Sometype_Mono({
+  weight: "400",
+  subsets: ["latin"]
+})
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,6 +25,10 @@ const great_vibes = Great_Vibes({
 export const metadata: Metadata = {
   title: "Clif Codes",
   description: "Freelance Landing Page for Clif Codes",
+  icons: {
+    icon: '/favicon.png',
+    apple: '/apple-icon.png'
+  }
 };
 
 export default function RootLayout({
@@ -30,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${great_vibes.variable}`}>
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
       <GoogleAnalytics gaId="G-HPCGNVPZPT" />
     </html>
   );

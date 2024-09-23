@@ -13,6 +13,15 @@ const config: Config = {
       'lg': {'min': '1024px', 'max': '2279px'},
     },
     extend: {
+      animation: {
+        blink: 'blink 1s step-start infinite',
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
+        },
+      },
       fontFamily: {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-great-vibes)'],

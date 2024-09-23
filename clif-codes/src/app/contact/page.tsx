@@ -12,7 +12,7 @@ export default function Contact() {
           <h2 className="font-bold text-3xl">Point of Contact</h2>
           <a href="/schedule" className="mt-2 border-2 w-fit rounded px-1 transition duration-300 linear hover:bg-zinc-200 border-sky-500 hover:border-blue-300 hover:text-blue-600">Schedule Consultation</a>
           <p className="pt-[2rem]">
-            I am Clif, a passionate web developer of three years. I like to
+            I am Clif, a freelance web developer of three years. I like to
             solve problems and build new things. I am passionate about AI,
             accessibility, & performance. Reach out now to get started working
             towards your next solution.
