@@ -14,10 +14,10 @@ export default function Hero() {
       <div className="flex flex-col lg:hidden block">
         <div>
           <Image
-            src="/pfp.png"
+            src="/ClifAI.webp"
             alt="Clifton Beale profile picture"
-            height={225}
-            width={225}
+            height={275}
+            width={275}
             className="rounded-full mx-auto"
           />
         </div>
@@ -40,11 +40,11 @@ export default function Hero() {
       <div className="flex flex-col lg:block hidden">
         <div>
           <Image
-            src="/pfp.png"
+            src="/ClifAI.webp"
             alt="Clifton Beale profile picture"
-            height={275}
-            width={275}
-            className="rounded-full mx-auto"
+            height={325}
+            width={325}
+            className="rounded mx-auto"
           />
         </div>
       </div>
