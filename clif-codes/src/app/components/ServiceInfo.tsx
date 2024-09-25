@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./Header";
 import Footer from "./Footer";
+import ScheduleConsultButton from "./ScheduleConsultButton";
 
 interface Service {
   service: string;
@@ -48,20 +49,21 @@ export default function ServiceInfo(service: Service) {
             <span>{"->"}</span>
             <p className="mx-2 text-sky-500 underline">{service.service}</p>
           </div>
-          <h4 className="text-xl font-bold">What is {service.service}?</h4>
-          <p className="mt-4 sm:mt-8">{service.description}</p>
-          <p className="mt-4 sm:mt-8">{service.description2}</p>
-          
-          <h4 className="text-xl font-bold my-6">Technologies Used:</h4>
+          <h4 className="text-xl font-bold my-4">Technologies Used:</h4>
           <div className="flex flex-wrap justify-start">
             {service.technologies.map((technology) => {
               return (
                 <ul key={technology}>
-                  <li className="w-fit mr-8 font-semibold border-2 rounded bg-gray-200 text-sm p-2">{technology}</li>
+                  <li className="w-fit mr-8 mb-4 font-semibold border-2 rounded bg-gray-200 text-sm p-2">{technology}</li>
                 </ul>
               );
             })}
           </div>
+          <h4 className="text-xl font-bold my-4">What is {service.service}?</h4>
+          <p className="mb-4">{service.description}</p>
+          <p className="my-4">{service.description2}</p>
+          <ScheduleConsultButton />
+          
         </div>
       </div>
       <Footer />

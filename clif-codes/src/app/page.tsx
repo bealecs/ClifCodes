@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import HeroCarousel from "./components/HeroCarousel";
 import Mockups from "./components/Mockups";
 import Reviews from "./components/Reviews";
+import ScheduleConsultButton from "./components/ScheduleConsultButton";
 import Services from "./components/Services";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Mockups />
       <Reviews />
+      <ScheduleConsultButton />
       <Footer />
     </main>
   );
