@@ -10,9 +10,9 @@ export default function ScheduleConsultButton() {
       ></span>
       <a
         href="/schedule"
-        className="text-xl border-2 p-4 rounded animation duration-300 linear hover:border-sky-400 border-sky-200 hover:bg-sky-500 hover:text-white bg-sky-200 "
+        className="p-4 rounded animation duration-300 linear hover:border-sky-400 border-sky-200 hover:bg-sky-500 hover:text-white bg-sky-200 "
       >
-        Schedule A Consult
+        Schedule Consultation w/ Clif
       </a>
       <span
         id="decoration"
