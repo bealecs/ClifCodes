@@ -24,7 +24,7 @@ const great_vibes = Great_Vibes({
 
 export const metadata: Metadata = {
   title: "Clif Codes",
-  description: "Freelance Landing Page for Clif Codes",
+  description: "Landing page for Clif, a full-stack web developer delivering scalable, performant, and accessible results.",
   icons: {
     icon: '/favicon.png',
     apple: '/apple-icon.png'
