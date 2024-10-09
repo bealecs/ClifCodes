@@ -105,21 +105,24 @@ export default function Services() {
               key={randomUUID()}
               href={service.serviceRedirectLink}
               id={service.serviceName}
-              className="text-center py-4 rounded-lg hover:shadow-xl sm:text-left overflow-hidden"
+              className="relative text-center py-4 rounded-lg sm:text-left overflow-hidden bg-white group"
             >
-              <Image
-                src={service.serviceImageLink}
-                alt={service.serviceAltText}
-                width={150}
-                height={150}
-                className="mx-auto sm:mx-0"
-              />
-              <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
-                {service.serviceName}
-              </h2>
-              <p className="text-gray-500 text-start tracking-tighter w-11/12 py-[1rem] h-[200px] mx-[1rem] sm:tracking-tight">
-                {service.serviceDescription}
-              </p>
+              <span className="absolute inset-0 bg-sky-200 top-0 left-0 w-full h-full transform -translate-y-full transition-transform duration-300 ease-out group-hover:translate-y-0"></span>
+              <span className="relative z-10">
+                <Image
+                  src={service.serviceImageLink}
+                  alt={service.serviceAltText}
+                  width={150}
+                  height={150}
+                  className="mx-auto sm:mx-0"
+                />
+                <h2 className="font-bold text-[1.2rem] sm:px-[1rem]">
+                  {service.serviceName}
+                </h2>
+                <p className="text-gray-500 text-start tracking-tighter w-11/12 py-[1rem] h-[200px] mx-[1rem] sm:tracking-tight">
+                  {service.serviceDescription}
+                </p>
+              </span>
             </a>
           );
         })}
