@@ -108,7 +108,7 @@ export default function Services() {
               className="relative text-center py-4 rounded-lg sm:text-left overflow-hidden bg-white group"
             >
               <span className="absolute inset-0 bg-sky-200 top-0 left-0 w-full h-full transform -translate-y-full transition-transform duration-300 ease-out group-hover:translate-y-0"></span>
-              <span className="relative z-10">
+              <span className="relative z-5">
                 <Image
                   src={service.serviceImageLink}
                   alt={service.serviceAltText}
