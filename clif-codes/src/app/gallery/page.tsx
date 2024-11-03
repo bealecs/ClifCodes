@@ -96,14 +96,14 @@ const Gallery = () => {
                   <Image height={500} width={500} alt="icon" src={"/SFR.png"} />
                 </a>
                 <a
-                  href="/gallery/static/cclighting"
+                  href="/gallery/static/doodles"
                   className="flex border-2 lg:w-fit w-5/12 rounded my-4 lg:mx-4 transition duration-300 ease-out hover:shadow-2xl"
                 >
                   <Image
                     height={500}
                     width={500}
                     alt="icon"
-                    src={"/cclighting.png"}
+                    src={"/doodles.png"}
                   />
                 </a>
               </div>

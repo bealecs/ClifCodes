@@ -65,7 +65,6 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    //for some reason sticky wouldnt work with tailwind so I styled inline
     <header
       className="bg-white"
       style={{ position: "sticky", top: 0, zIndex: 10 }}
@@ -156,8 +155,11 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a className="text-base font-semibold leading-6 text-gray-900" href={pathname === "/gallery" ? "/" : "/gallery"}>
-          {pathname === "/gallery" ? "Home Page" : "Gallery"}
+          <a
+            className="text-base font-semibold leading-6 text-gray-900"
+            href={pathname === "/gallery" ? "/" : "/gallery"}
+          >
+            {pathname === "/gallery" ? "Home Page" : "Gallery"}
           </a>
           <a
             href={pathname === "/contact" ? "/" : "/contact"}
@@ -171,6 +173,12 @@ export default function Header() {
           >
             {pathname === "/about" ? "Home Page" : "About Clif"}
           </a>
+          {/* <a
+            href={pathname === "/blog" ? "/" : "/blog"}
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            {pathname === "/blog" ? "Home Page" : "Blog"}
+          </a> */}
         </Popover.Group>
       </nav>
       <Dialog
@@ -180,7 +188,7 @@ export default function Header() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex justify-between">
             <div className="flex">
               <h1 className="font-mono text-black-400 pr-2 text-4xl">Clif</h1>
@@ -199,6 +207,30 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
+                {/* <a
+                  href={pathname === "/blog" ? "/" : "/blog"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {pathname === "/blog" ? "Home Page" : "Blog"}
+                </a> */}
+                <a
+                  href={pathname === "/gallery" ? "/" : "/gallery"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {pathname === "/gallery" ? "Home Page" : "Gallery"}
+                </a>
+                <a
+                  href={pathname === "/contact" ? "/" : "/contact"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {pathname === "/contact" ? "Home Page" : "Contact"}
+                </a>
+                <a
+                  href={pathname === "/about" ? "/" : "/about"}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {pathname === "/schedule" ? "Home Page" : "About Clif"}
+                </a>
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -220,30 +252,13 @@ export default function Header() {
                             href={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
-                            {item.name}
+                            <b>- </b>{item.name}
                           </Disclosure.Button>
                         ))}
                       </Disclosure.Panel>
                     </>
                   )}
                 </Disclosure>
-                <a href={pathname === "/gallery" ? "/" : "/gallery"} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                  {pathname === "/gallery" ? "Home Page" : "Gallery"}
-                </a>
-                <a
-                  href={pathname === "/contact" ? "/" : "/contact"}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  {pathname === "/contact" ? "Home Page" : "Contact"}
-                </a>
-                <a
-                  href={pathname === "/about" ? "/" : "/about"}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  {pathname === "/schedule"
-                    ? "Home Page"
-                    : "About Clif"}
-                </a>
               </div>
             </div>
           </div>

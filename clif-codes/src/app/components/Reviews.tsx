@@ -42,7 +42,7 @@ The new site has been a game-changer for SYAA. It&apos;s easy for our users to n
       </div>
       <div className="m-4 lg:w-10/12 lg:mx-auto block bg-slate-200 p-4 mb-8 rounded">
         <p>
-          &quot;Clif did a great job building my website, making it look nice and professional. His ability to bring my ideas to life were much appreciated. He even helped out with logos and business cards. I would recommend Clif&apos;s services to anyone that needs a professional site&quot;
+          &quot;Clif did a great job building my website, making it look nice and professional. He was able to deliver on exactly what I needed. He even helped out with logos and business cards. I would recommend Clif&apos;s services to anyone that needs a professional site&quot;
         </p>
         <div className="flex items-center my-4">
           <Image
