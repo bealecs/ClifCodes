@@ -65,7 +65,7 @@ export default function ProjectDisplay(project: Project) {
           {/* <div className="w-fit mx-auto">
             <Image src={project.webMockupImg} alt={`Mockup for ${project.projectName}`} width={1050} height={450} />
           </div> */}
-          <h4 className="text-3xl font-bold mt-4">What is <span className="italic underline">{project.projectName}</span>?</h4>
+          <h4 className="text-2xl font-bold mt-4">What is <span className="italic underline">{project.projectName}</span>?</h4>
           {project.website != null && <a href={project.website} target="_blank" rel="noopener noreffer" className="text-sky-400 underline mb-4 ">Visit the website</a>}
           <p>{project.missionStatement}</p>
           <p className="mt-4 sm:mt-8">{project.description}</p>
