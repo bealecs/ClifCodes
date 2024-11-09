@@ -8,14 +8,14 @@ export default function Blog() {
 //       readingTime: 0,
 //       datePosted: "",
 //       previewImgSrc: "/ClifAI.webp",
-//       redirectURL: "",
+//       redirectURL: "/blog/first",
 //     },
 //     {
 //       title: "",
 //       readingTime: 0,
 //       datePosted: "",
 //       previewImgSrc: "/ClifAI.webp",
-//       redirectURL: "",
+//       redirectURL: "/blog/second",
 //     },
 //   ];
 
