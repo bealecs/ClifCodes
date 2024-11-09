@@ -24,7 +24,7 @@ export default function Contact() {
           <h4 className="text-sky-500 pt-[1rem]">Freelance Web Developer</h4>
         </div>
       </div>
-      <a href="/schedule" className="m-8 border-2 max-w-4xl text-center rounded p-4 transition duration-300 linear hover:bg-zinc-200 border-sky-500 hover:border-blue-300 hover:text-blue-600 block lg:mx-auto">Schedule Consultation</a>
+      <a href="/schedule" className="m-8 border-2 max-w-4xl text-center rounded p-4 transition duration-300 linear hover:bg-sky-500 hover:text-white hover:border-sky-400 border-2 border-sky-200 bg-sky-200 shadow-lg block lg:mx-auto">Schedule Consultation</a>
     </section>
     <Footer />
     </>
